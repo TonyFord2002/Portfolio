@@ -1,24 +1,35 @@
-import logo from './logo.svg';
+
+import headshot from './images/TonyFordHeadshot.jpg'
+import github from './images/GitHub.png'
+import linkedin from './images/LinkedIn.png'
+import gmail from './images/Gmail.png'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div id='greeting'>
+        <div id='img'>
+          <img id='headshot' src= {headshot}/>
+        </div>
+        
+        <div id='nametext'>I'm Tony Ford.</div>
+        
+        <div id='greetingtext'> Full Stack Engineer based in Boone, NC.<br/> Trained with Per Scholas and Wilkes Community College.
+      </div>
+        
+        <div id='info'>
+          I am Software Engineer apprentice with experience in troubleshooting and resolving issues. I am experienced in objectoriented programming with Node.js, Express.js, HTML and CSS. I have developed, tested, and debugged code with VS Code. I have designed interfaces with React and MondoDB. I am eager to learn and develop new skills in the IT field.
+      </div>
+
+      </div>
+      <div id='links'>
+      <img id='github' src={github}/><a href='https://github.com/TonyFord2002'>GitHub</a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img id='linkedin' src={linkedin}/><a href='https://www.linkedin.com/in/tonyford2002/'>LinkedIn</a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img id='gmail' src={gmail}/><a href="mailto:tonyford2002@gmail.com" target="_blank" rel="noopener noreferrer">TonyFord2002@gmail.&nbsp;</a>
+
+      </div>
+    </div>    
   );
 }
 
