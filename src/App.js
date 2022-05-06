@@ -16,19 +16,27 @@ function App() {
         <div id='nametext'>I'm Tony Ford.</div>
         
         <div id='greetingtext'> Full Stack Engineer based in Boone, NC.<br/> Trained with Per Scholas and Wilkes Community College.
+        </div>
       </div>
         
         <div id='info'>
           I am Software Engineer apprentice with experience in troubleshooting and resolving issues. I am experienced in objectoriented programming with Node.js, Express.js, HTML and CSS. I have developed, tested, and debugged code with VS Code. I have designed interfaces with React and MondoDB. I am eager to learn and develop new skills in the IT field.
       </div>
 
+      <div id='projects'>
+      <label>Projects</label>
       </div>
-      <div id='links'>
-      <img id='github' src={github}/><a href='https://github.com/TonyFord2002'>GitHub</a>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img id='linkedin' src={linkedin}/><a href='https://www.linkedin.com/in/tonyford2002/'>LinkedIn</a>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img id='gmail' src={gmail}/><a href="mailto:tonyford2002@gmail.com" target="_blank" rel="noopener noreferrer">TonyFord2002@gmail.&nbsp;</a>
 
+      <div id='links'>
+      <a href='https://github.com/TonyFord2002'><img id='github' src={github}/></a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      
+      <a href='https://www.linkedin.com/in/tonyford2002/'><img id='linkedin' src={linkedin}/></a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      
+      <a href="mailto:tonyford2002@gmail.com" target="_blank" rel="noopener noreferrer"><img id='gmail' src={gmail}/></a>f
       </div>
+    
     </div>    
   );
 }

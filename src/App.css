@@ -1,7 +1,6 @@
 #greeting{background-color: rgb(201, 201, 201);
   color: white;
   text-align: center;
-  margin-bottom: 30px;
 }
 
 #img{text-align: center;}
@@ -17,11 +16,9 @@
 
 #greetingtext{
   font-size: 25px;
-  margin-top: 30px;
 }
 
 #info{background-color: rgba(7, 7, 232, .3);
-      margin-top: 30px;
       padding: 150px;
       font-size: 25px;
 }
