@@ -34,7 +34,7 @@ function App() {
       <a href='https://www.linkedin.com/in/tonyford2002/'><img id='linkedin' src={linkedin}/></a>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       
-      <a href="mailto:tonyford2002@gmail.com" target="_blank" rel="noopener noreferrer"><img id='gmail' src={gmail}/></a>f
+      <a href="mailto:tonyford2002@gmail.com"><img id='gmail' src={gmail}/></a>
       </div>
     
     </div>    
