@@ -12,8 +12,8 @@ function App() {
   return (
     <div className="App">
       <nav id='navbar'>
-        <a id = 'aboutlink' href = '#about-section'>About</a>
-        <a id = 'projectlink' href = '#project-section'>Projects</a>
+        <a id = 'aboutlink' href = '#about-section'>About</a> |
+        <a id = 'projectlink' href = '#project-section'>Projects</a> |
         <a id = 'contactlink' href = '#contact-section'>Contact Me</a>
       </nav>
       <div id='greeting'>
@@ -43,13 +43,13 @@ function App() {
       <section id = 'contact-section'>
         <div id='links'>
       <div id='contacttext'>Contact Me</div>
-        <a href='https://github.com/TonyFord2002'><img id='github' src={github} alt='GitHubIcon'/></a>
+        <a id='githubtext' href='https://github.com/TonyFord2002'><img id='github' src={github} alt='GitHubIcon'/></a>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         
-        <a href='https://www.linkedin.com/in/tonyford2002/'><img id='linkedin' src={linkedin} alt='LinkedInIcon'/></a>
+        <a id='linkedintext' href='https://www.linkedin.com/in/tonyford2002/'><img id='linkedin' src={linkedin} alt='LinkedInIcon'/></a>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         
-        <a href="mailto:tonyford2002@gmail.com"><img id='gmail' src={gmail} alt='GmailIcon'/>TonyFord2002@gmail.com</a>
+        <a id='gmailtext' href="mailto:tonyford2002@gmail.com"><img id='gmail' src={gmail} alt='GmailIcon'/>TonyFord2002@gmail.com</a>
         </div>
       </section>
     </div>    
