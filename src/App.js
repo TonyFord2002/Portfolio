@@ -35,9 +35,9 @@ function App() {
       <section id ='project-section'>
           <div id='projecttext'>Projects</div>
         <div id='projects'>
-          <div id='project1'><a id ='img1link' href = 'https://worktrackerapp.herokuapp.com/'>Work Tracker App<br/><img id ='img1' src = {worktracker}/></a></div>
-          <div id='project2'><a id = 'img2link' href ='https://tonyford2002.github.io/MemoryGame/'> Memory Game<br/><img id ='img2' src = {memorygame}/></a></div>
-          <div id='project3'><a id = 'img3link' href = 'https://tony-sailing-blog.herokuapp.com/'>Sailing Blog<br/><img id ='img3' src = {sailingblog}/></a></div>
+          <div id='project1'><a id ='img1link' href = 'https://worktrackerapp.herokuapp.com/'>Work Tracker App<br/><img id ='img1' src = {worktracker}/></a><p id='p1'>This is a custom app I created for my Dad. He uses it to keep track of the work he's done for clients and the workers that were on each job. It keeps a running total of each client's bill at the end of all the jobs finished.</p></div>
+          <div id='project2'><a id = 'img2link' href ='https://tonyford2002.github.io/MemoryGame/'> Memory Game<br/><img id ='img2' src = {memorygame}/></a><p>This is an app I made for my fiance's first grade class. She can put it on the whiteboard and two students can play. The cards use their spelling words to help with recognition.</p></div>
+          <div id='project3'><a id = 'img3link' href = 'https://tony-sailing-blog.herokuapp.com/'>Sailing Blog<br/><img id ='img3' src = {sailingblog}/></a><p>This is a personal blog I created for myself. I am very much into sailing and the crusing lifestyle. My end goal is to own a yacht large enough for my family to sail around the world.</p></div>
         </div>
       </section>
       <section id = 'contact-section'>
