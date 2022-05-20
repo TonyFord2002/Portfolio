@@ -38,7 +38,7 @@ function App() {
         <div id='projects'>
           <div id='project1'><a id ='img1link' href = 'https://worktrackerapp.herokuapp.com/'>Work Tracker App<br/><img id ='img1' src = {worktracker}/></a><p id='p1'>This is a custom app I created for my Dad. He uses it to keep track of the work he's done for clients and the workers that were on each job. It keeps a running total of each client's bill at the end of all the jobs finished.</p></div>
           <div id='project2'><a id = 'img2link' href ='https://tonyford2002.github.io/MemoryGame/'> Memory Game<br/><img id ='img2' src = {memorygame}/></a><p>This is an app I made for my fiance's first grade class. She can put it on the whiteboard and two students can play. The cards use their spelling words to help with recognition.</p></div>
-          <div id='project3'><a id = 'img3link' href = 'https://tony-sailing-blog.herokuapp.com/'>Sailing Blog<br/><img id ='img3' src = {sailingblog}/></a><p>This is a personal blog I created for myself. I am very much into sailing and the cruising lifestyle. My end goal is to own a yacht large enough for my family to sail around the world with.</p></div>
+          <div id='project3'><a id = 'img3link' href = 'https://tony-sailing-blog.herokuapp.com/'>Sailing Blog<br/><img id ='img3' src = {sailingblog}/></a><p>This is a personal blog I created for myself. I am very much into sailing and the cruising lifestyle. My end goal is to own a yacht large enough for my family to sail around the world on.</p></div>
           <div id='project4'><a id = 'img4link' href = 'https://tonyford2002.github.io/Hexadle/'>Hexadle<br/><img id ='img4' src = {hexadle}/></a><p>This was a fun code along tutorial that I modified to make my own. It is a Wordle like app that instead of 5 letters it uses 6 for more of a challenge. It pulles from more than 15,700 words legal to use in scrabble and words-with-friends.</p></div>
         </div>
       </section>
@@ -51,7 +51,7 @@ function App() {
         <a id='linkedintext' href='https://www.linkedin.com/in/tonyford2002/'><img id='linkedin' src={linkedin} alt='LinkedInIcon'/></a>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         
-        <a id='gmailtext' href="mailto:tonyford2002@gmail.com"><img id='gmail' src={gmail} alt='GmailIcon'/>TonyFord2002@gmail.com</a>
+        <a id='gmailtext' href="mailto:tonyford2002@gmail.com"><img id='gmail' src={gmail} alt='GmailIcon'/><br/>TonyFord2002@gmail.com</a>
         </div>
       </section>
     </div>    
